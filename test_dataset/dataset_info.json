@@ -1,0 +1,72 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "fine_tome-100k",
+  "dataset_size": 258086773,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/mlabonne/FineTome-100k@c2343c1372ff31f51aa21248db18bffa3193efdb/data/train-00000-of-00001.parquet": {
+      "num_bytes": 116531415,
+      "checksum": null
+    }
+  },
+  "download_size": 116531415,
+  "features": {
+    "conversations": {
+      "feature": {
+        "from": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "value": {
+          "dtype": "string",
+          "_type": "Value"
+        }
+      },
+      "_type": "List"
+    },
+    "source": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "score": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "openai_dialog": {
+      "feature": {
+        "content": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "role": {
+          "dtype": "string",
+          "_type": "Value"
+        }
+      },
+      "_type": "List"
+    },
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 374618188,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 258086773,
+      "num_examples": 100000,
+      "dataset_name": "fine_tome-100k"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
